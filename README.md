@@ -3,27 +3,36 @@
 
 Se nos entrega el siguiente código:
 
+![CodigoOriginal](capturas/CodigoOriginal.png)
+
+![CodigoOriginal](capturas/CodigoOriginal2.png)
 
 ## 1. Corrección de errores de Sintaxis
 
 
 Como podemos observar, todos aquellos fallos que nos señala el IDE se deben a errores de sintaxis. Para este ejercicio, pondremos nuestras iniciales y la fecha de hoy tal y como la siguiente imagen:
 
+![ErrorSintaxis](capturas/errorSintaxis.png)
 
 ## 2. Depurar y solucionar errores de ejecución
 
 
 Una vez depuramos el código, incluso a la hora de corregir la sintaxis, nos daremos cuenta de que nos da un error a partir de la línea 19 hasta la 33, es decir, desde que empieza hasta que termina un bucle, como podemos observar en la siguiente imagen:
 
+![ErrorAlDepurarWhile](capturas/ErrorAlDepurar1.PNG)
 
 Para solucionar este error,  debemos solucionar la condición del bucle, por lo tanto colocaremos lo siguiente:
+
+![WhileArreglado](capturas/whileArreglado.png)
 
 
 Luego nos encontraremos con otro problema y es que al ejecutar el programa, colocar una temperatura y seleccionar la opción de salir, el programa volverá a preguntarnos por otra temperatura y así todo el rato:
 
+![ErrorAlDepurarIf](capturas/errorAlDepurar2.png)
 
 Para solucionar esto, debemos arreglar el if, ya que al ser la variable respuesta un String, debemos cambiar lo siguiente:
 
+![IfArreglado](capturas/ifArreglado.png)
 
 Con esto, el código funciona al completo.
 
